@@ -55,6 +55,12 @@ The graph below represents the exact solution provided by Wolfram Alpha.
 
 ![Wolfram Graph](./assets/pictures/WolframGraph.png)
 
+### Runge-Kutta Method Graph
+
+The graph below shows the approximate solution obtained using the Euler method.
+
+![Modified Euler Method Graph](./assets/pictures/EulerGraph.png)
+
 ## Error Analysis: Runge-Kutta Method vs. Wolfram Results
 
 In this section, we analyze the accuracy of the Runge-Kutta method by comparing its results with those obtained from Wolfram Alpha. We calculate both the absolute and relative errors to quantify the discrepancies between the two methods.
@@ -69,6 +75,20 @@ In this section, we analyze the accuracy of the Runge-Kutta method by comparing 
 
   The relative error is defined as the absolute error divided by the true value (Wolfram result). This metric gives us a sense of the error relative to the magnitude of the true value, making it easier to assess the performance of the Runge-Kutta method in different contexts.
 
+## Error Analysis: Modified Euler Method vs. Wolfram Results
+
+In this section, we analyze the accuracy of the Runge-Kutta method by comparing its results with those obtained from Wolfram Alpha. We calculate both the absolute and relative errors to quantify the discrepancies between the two methods.
+
+### Results
+
+- **Absolute Error:** \(0.000516906\)
+
+  The absolute error represents the difference between the actual value obtained from Wolfram and the approximate value calculated using the Runge-Kutta method. It provides a straightforward measure of the deviation in the results.
+
+- **Relative Error:** \(6.69717e-05\)
+
+  The relative error is defined as the absolute error divided by the true value (Wolfram result). This metric gives us a sense of the error relative to the magnitude of the true value, making it easier to assess the performance of the Runge-Kutta method in different contexts.
+
 ## Conclusion
 
-The analysis of these errors indicates that while the Runge-Kutta method provides a reasonably close approximation to the true solution, the absolute error suggests some deviation that might need further investigation. The relatively low value of the relative error indicates that the Runge-Kutta method performs well in this instance, but continued refinement and validation against more precise methods may enhance its accuracy further.
+Runge-Kutta method gives much more accurate results compared to modified Euler method.
