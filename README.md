@@ -55,7 +55,7 @@ The graph below represents the exact solution provided by Wolfram Alpha.
 
 ![Wolfram Graph](./assets/pictures/WolframGraph.png)
 
-### Runge-Kutta Method Graph
+### Euler Method Graph
 
 The graph below shows the approximate solution obtained using the Euler method.
 
