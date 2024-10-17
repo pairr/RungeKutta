@@ -19,7 +19,7 @@ The Euler method is a simple numerical technique that provides an iterative solu
 1. **Discretize the interval:** Divide the interval $[x_0, x_n]$ into $n$ equal subintervals of width $h$, where:
    $$h = \frac{x_n - x_0}{n}.$$
 
-2. **Iteration Formula:** The iterative formula for the Euler method is given by:
+2. **Iteration Formula:** The iterative formula for the Euler method is given by:<br>
    $$k_1 = f(x_{i - 1}, y_{i - 1})$$<br>
    $$k_2 = f(x_{i - 1} + \frac{h}{2}, y_{i - 1} + \frac{h}{2}k_1)$$<br> 
    $$k_3 = f(x_{i - 1} + \frac{h}{2}, y_{i - 1} + \frac{h}{2}k_2)$$<br>
