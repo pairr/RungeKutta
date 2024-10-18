@@ -5,3 +5,4 @@ main.o
 RungeKutta.h.gch
 /build
 /build1
+/cmake-build-debug
