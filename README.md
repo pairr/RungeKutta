@@ -10,16 +10,16 @@ with an initial condition:
 
 $$y(x_0) = y_0,$$
 
-we aim to approximate the solution over the interval $[x_0, x_n]$ using the modified Euler method.
+we aim to approximate the solution over the interval $[x_0, x_n]$ using the Runge-Kutta method.
 
 ### Approach
 
-The Euler method is a simple numerical technique that provides an iterative solution to the ODE. The main idea is to use the slope at the beginning of an interval to estimate the function's value at the next point.
+The Runge-Kutta method is a simple numerical technique that provides an iterative solution to the ODE
 
 1. **Discretize the interval:** Divide the interval $[x_0, x_n]$ into $n$ equal subintervals of width $h$, where:
    $$h = \frac{x_n - x_0}{n}.$$
 
-2. **Iteration Formula:** The iterative formula for the Euler method is given by:<br>
+2. **Iteration Formula:** The iterative formula for the Runge-Kutta method is given by:<br>
    $$k_1 = f(x_{i - 1}, y_{i - 1})$$<br>
    $$k_2 = f(x_{i - 1} + \frac{h}{2}, y_{i - 1} + \frac{h}{2}k_1)$$<br> 
    $$k_3 = f(x_{i - 1} + \frac{h}{2}, y_{i - 1} + \frac{h}{2}k_2)$$<br>
@@ -45,7 +45,7 @@ The Runge-Kutta method provides a straightforward way to numerically solve ODEs,
 
 ### Runge-Kutta Method Graph
 
-The graph below shows the approximate solution obtained using the Euler method.
+The graph below shows the approximate solution obtained using the Runge-Kutta method.
 
 ![Runge-Kutta Method Graph](./assets/pictures/RungeKuttaGraph.png)
 
