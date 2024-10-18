@@ -1,4 +1,0 @@
-/home/stud-05/Desktop/Javid/Runge-Kutta/cmake-build-debug/CMakeFiles/RungeKutta.dir
-/home/stud-05/Desktop/Javid/Runge-Kutta/cmake-build-debug/CMakeFiles/RungeExe.dir
-/home/stud-05/Desktop/Javid/Runge-Kutta/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/stud-05/Desktop/Javid/Runge-Kutta/cmake-build-debug/CMakeFiles/rebuild_cache.dir
