@@ -3,3 +3,5 @@ a.out
 RungeKutta.o
 main.o
 RungeKutta.h.gch
+/build
+/build1

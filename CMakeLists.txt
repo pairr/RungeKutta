@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+project(MyRunge)
+option(BUILD_SHARED_LIBS "NO COMMENT" ON)
+add_library(RungeKutta RungeKutta.cpp)
+target_include_directories(RungeKutta PUBLIC ${CMAKE_SOURCE_DIR})
+add_executable(RungeExe main.cpp)
+target_link_libraries(RungeExe PRIVATE RungeKutta)
